@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>your name-portfolio</title>
+        <style>
+            body{
+                font-family:Arial,sans-serif;
+                margin:0 px auto;
+                padding:0%;
+                background-color:#c2d4f0;
+            }
+            header{
+                background-color:#e9e6e794;
+                color:#0b4623;
+                text-align:center;
+                padding:2rem 0;
+                position:relative;/*Add this*/
+            }
+            .header-content h1{
+                font-size: 2.5rem;
+            }
+            /*Add styles for the round profile picture*/
+            .profile-picture{
+                width:100px;/*Adjust the size as needed*/
+                height:100px;
+                border-radius:75%;/*create a circular shape*/
+                object-fit:cover;/*To ensure the image fills the circular shape*/
+                position:absolute;/*Add this*/
+                top:75px;/*Adjust top position as needed*/
+                left:75px;/*Adjust left position as needed*/
+            }
+            nav{
+                background-color: #333;
+                color: #fff;
+                text-align:center;
+            }
+            nav u1{
+                list-style-type:none;
+                padding:0;
+            }
+            nav u1 li{
+                display:inline;
+                margin:0 20px;
+            }
+            nav u1 li a{
+                text-decoration: none;
+                color:#fff;
+            }
+            .section-content{
+                beckground-color:#fff;
+                padding:2rem;
+                margin:1rem;
+                border-radius:20px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            }
+            .download-button{
+                background-color: #333;
+                color: #fff;
+                padding:0.5rem 1rem;
+                text-decoration: none;
+                border-radius:20px;
+                display: inline-block;
+                margin-top: 10px;
+            }
+            .download-button:hover{
+                background-color: aqua;
+            }
+            footer{
+                text-align: center;
+                padding:1rem 0;
+                background-color: #333;
+                color:#fff;
+            }
+            u1{
+                list-style-type: square;
+                padding-left: :20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="header-content">
+
+                <h1><b>MownicaNagaraj</b></h1>
+             <h3>  <p><b>web designer<b></p><h3></h3>
+
+            </div>
+        </header>
+        <nav>
+            <u1>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="resume">Resume</a></li>
+
+
+            </u1>
+        </nav>
+        <section id="about">
+        <div class="selection-content">
+            <h2>About Me</h2>
+            <p>I am a student,aspiring to create a successful career in web designing.I love designing which in turn motivated me in taking career path.I am trying to learn about the web designing and it's deep gaining knowledge</p>
+        </div>
+    </section>
+    <section id="education">
+        <div class="section-content">
+        <h2>BCA</h2>
+        <p>Annamalai university</p>
+        </div>
+        </section>
+        <section id=""skills">
+            <div class="section-content">
+                <h2>Skills</h2>
+        <u1>
+            <li>python</li>
+            <li>Java</li>
+            <li>c</li>
+            <li>c++</li>
+            <li>Artificial Intelligence</li>
+        </u1>
+        </div>
+    </section>
+
+        </section id="Projects">
+        <div class="section-content">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="#">projects 1</a></li>
+                <li><a href="#">projects 2</a></li>
+                <!-- Add more projects links here-->
+            </ul>
+    
+</section>
+
+
+    <!--achievement(end)-->
+<!--contact(start)-->
+<table id="EXPERIENCE" border="0" width="100%" cellpadding="0" cellspacing="0" 
+bgcolor="#c2c0c3">
+<tbody>
+<tr><td>
+<table border="0" cellpadding="5" celllspacing="0" width="80%" align="center">
+<tbody>
+<tr>
+<td height="80" align="center" valign="middle" colspan="2">
+<font face="verdana" size="7" color="black">
+<h4>CONTACT</h4>
+
+<hr color="black" width="100">
+</font>
+</td>
+</tr><tr>
+<td height="180" align="center" valign="middle" colspan="2">
+<font face="verdana" size="5" color="black">
+ <form action="">
+<table >
+ <tr>
+ <th>Name:</td>
+ <td><input type="text" placeholder="ENTER THE NAME"></td>
+ </tr>
+ <tr>
+ <th>Email:</th>
+ <td><input type="text" placeholder="ENTER THE EMAIL"></td>
+ </tr>
+ <tr>
+ <th>Moblie.no:</th>
+ <td><input type="text" placeholder="ENTER THE MOBILE NO"></td>
+ </tr>
+ <tr>
+ <th>Message</th>
+ <td><input type="text" ></td>
+ </tr>
+ <tr>
+ <td><input type="button" value="submit"></td>
+ </tr>
+</table></form>
+</font>
+</td>
+</tr>
+</tbody>
+</table>
+ <!--header(start)-->
+ <table id="header" bordfer="0" width="100%" cellpadding="0" cellspacing="0" 
+ bgcolor="grey">
+ <tbody>
+ <tr>
+ <td>
+ <table border="0" cellpadding="10" cellsacing="0" width="100%" align="center">
+ <tbody>
+ <tr>
+ <td>
+ <font face="comic sans ms" size="6" color="red">
+ <u><b>N.MOWNICA</b></u><br>
+ </font>
+ <fond face="comic sans ms" sizze="4" color="red">
+ mail id:mownicanagaraj9342@gmail.com<br>
+ phone no:9342262358
+ </fond>
+ </td>
+ <td>
+ </td>
+<footer>
+    <div id="footer">
+    &copy;Gmail
+    </div>
+</footer>
+<script>
+    //smooth scrolling to section when clicking on navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor=>>{
+        anchor.addEventListener('click',function(e){
+            e.preventDefault();
+            const targerId=this.getAttribute('href').substring(1);
+            const targetElement=document.getElelmentId(targetId);
+            if(targetElement){
+                window.scrollTo({
+                    top:targetElement.offsetTop,
+                    behaviour:'smooth'
+                });
+            }
+        });
+    });
+</scr>
